@@ -142,6 +142,7 @@ const Header = (props) => {
                     onChange={(e) => setLastName(e.target.value)}
                   />
                 )}
+                <p>account to test: ngochieu17@gmail.com pass: 123456</p>
                 <MaterialInput
                   type='text'
                   label='Enter Email/Enter Mobile Number'
