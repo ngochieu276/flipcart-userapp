@@ -5,7 +5,7 @@ import getParams from "../../../utils/getParams";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Card from "../../../components/UI/Card";
 import { Carousel } from "react-responsive-carousel";
-import { api } from "../../../urlConfig";
+import { generatePublicUrl } from "../../../urlConfig";
 
 /**
  * @author
