@@ -34,9 +34,9 @@ export const ProductPage = (props) => {
             <a
               key={index}
               style={{ display: "block" }}
-              href={`${api}/${banner.navigateTo}`}
+              href={banner.navigateTo}
             >
-              <img src={banner.img} alt='' />
+              <img src={`${api}/${banner.img}`} alt='' />
             </a>
           ))}
       </Carousel>
