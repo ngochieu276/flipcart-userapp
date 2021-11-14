@@ -36,7 +36,7 @@ export const ProductPage = (props) => {
               style={{ display: "block" }}
               href={banner.navigateTo}
             >
-              <img src={`${api}/${banner.img}`} alt='' />
+              <img src={generatePublicUrl(banner.img)} alt='' />
             </a>
           ))}
       </Carousel>
@@ -57,7 +57,7 @@ export const ProductPage = (props) => {
             >
               <img
                 style={{ width: "100%", height: "100" }}
-                src={product.img}
+                src={generatePublicUrl(product.img)}
                 alt=''
               />
             </Card>
