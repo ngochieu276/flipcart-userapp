@@ -5,6 +5,7 @@ import getParams from "../../../utils/getParams";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Card from "../../../components/UI/Card";
 import { Carousel } from "react-responsive-carousel";
+import { api } from "../../../urlConfig";
 
 /**
  * @author
@@ -33,7 +34,7 @@ export const ProductPage = (props) => {
             <a
               key={index}
               style={{ display: "block" }}
-              href={banner.navigateTo}
+              href={`${api}/${banner.navigateTo}`}
             >
               <img src={banner.img} alt='' />
             </a>
