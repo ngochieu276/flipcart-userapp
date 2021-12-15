@@ -9,7 +9,14 @@ import { MenuHeader } from "../../components/MenuHeader";
  **/
 
 export const HomePage = (props) => {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <p>
+        Hiện tại chưa thiết kệ giao diện trang chủ ^^. Chọn Electronics mục
+        samsung để test ạ. Thanks
+      </p>
+    </Layout>
+  );
 };
 
 export default HomePage;
